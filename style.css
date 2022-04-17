@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Pacifico&display=swap');
+.iii{
+  font-family:Pacifico;
+  color:#FFA500;
+}
+.prp{
+  font-family:Neucha;
+  color:#FA8072
+}
+.nnn{
+  font-family:Pacifico;
+  color:#4682B4;
+}
+header, footer {
+  background-color:#FFA07A	;
+  padding:10px;
+  height:99px;
+}
+main{
+  padding:10px;
+  background-color:silver;
+  margin-top:10px;
+}
+.post{
+  background-color:white;
+  padding:20px;
+  border-radius:20px;
+  margin-bottom:10px;
+  display:flex;
+}
+.post img {
+  margin:20px;
+}
+
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+}
+#menu1{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+#menu1 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+#menu1 > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content:url("https://codepen.io/OlgaPonomareva23/pen/LYeWKbK");
+}
+#menu1 ul li{
+position: relative;
+display: block;
+float: left;
+width: auto;
+height: auto;
+}
+#menu1 ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+  box-sizing: border-box;
+color:grey;
+}
+#menu1 ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #FFA07A;}
+
+#menu1 ul li:hover ul{
+display: block;}
+#menu1 ul li ul li{
+float: none;
+width: 100%;
+}
+#menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff	;
+color: grey;
+}
